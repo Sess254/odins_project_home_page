@@ -24,7 +24,6 @@ img {
 body {
     color: var(--clr-text);
     font-family: "Montserrat", sans-serif;
-    position: relative;
 }
 
 body::before {
@@ -34,10 +33,16 @@ body::before {
     left: 0;
     z-index: -1;
     width: 100%;
-    height: 30rem;
+    height: 40rem;
     background: var(--clr-primary);
     transform-origin: 0;
     transform: skewY(-10deg);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .profile_pic {
@@ -51,14 +56,30 @@ body::before {
     margin-top: 1em;
     position: relative;
     z-index: 5;
+    padding: 1em;
 }
 
 .profile_name  {
     position: absolute;
-    top: 200px;
+    top: 500px;
     z-index: 10;
-    font-size: 1.4rem;
-    font-weight: 700;
+    font-size: 2.5rem;
+    font-weight: 500;
     text-shadow: 2px 2px 2px rgba(0 ,0, 0, 0.8);
 }
 
+.about_me {
+    color: var(--clr-secondary);
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.socials {
+    display: flex;
+    gap: 1em;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
