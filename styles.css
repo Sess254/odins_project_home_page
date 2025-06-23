@@ -1,0 +1,23 @@
+:root {
+    --clr-secondary: #7c7474;
+    --clr-primary: #1a074d;
+    --clr-accent: #b60c00;
+    --clr-text: #fffefc;
+    --space: 2rem;
+}
+
+
+* ,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: var(--clr-primary);
+    color: var(--clr-text);
+}
+
