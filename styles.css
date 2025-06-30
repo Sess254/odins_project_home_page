@@ -226,7 +226,7 @@ footer .socials {
     }
 }
 
-@media (min-width: 1270px) {
+@media (min-width: 1170px) {
     .profile_pic {
         max-width: 440px;
     }
@@ -236,8 +236,8 @@ footer .socials {
     }
 
     .profile_name {
-        top: 600px;
-        left: 490px;
+        top: 60px;
+        left: 700px;
     }
 
     .work_section {
