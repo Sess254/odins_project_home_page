@@ -90,7 +90,7 @@ footer .socials {
 .profile_name  {
     position: absolute;
     top: 300px;
-    left: 70px;
+    left: 90px;
     z-index: 10;
     font-family: "DM Sans", sans-serif;
     font-size: 2.5rem;
@@ -172,7 +172,7 @@ footer .socials {
     }
 }
 
-@media (min-width: 510px) {
+@media (min-width: 768px) {
 
     .profile_pic {
         max-width: 350px;
@@ -202,6 +202,7 @@ footer .socials {
         box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         font-size: 1.3rem;
         margin-top: 4em;
+        max-width: 700px;
     }
 
     .section_title {
@@ -223,4 +224,49 @@ footer .socials {
     footer {
         font-size: 1.5rem;
     }
+}
+
+@media (min-width: 1270px) {
+    .profile_pic {
+        max-width: 440px;
+    }
+
+    .about_me {
+        max-width: 500px;
+    }
+
+    .profile_name {
+        top: 600px;
+        left: 490px;
+    }
+
+    .work_section {
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+        margin-left: 4em;
+    }
+
+    .work_card {
+        max-width: 500px;
+    }
+
+    .work_card:hover, .about_me:hover{
+        transform: scale(1.1);
+    }
+
+    .profile_container {
+        gap: 2em;
+    }
+
+    .about_me, .work_card {
+        transition: transform 0.5s ease;
+    }
+
+    .section_title {
+        font-size: 3rem;
+    }
+
+
 }
