@@ -236,8 +236,9 @@ footer .socials {
     }
 
     .profile_name {
-        top: 60px;
-        left: 700px;
+        top: 0;
+        left: 20px;
+        text-align: left;
     }
 
     .work_section {
